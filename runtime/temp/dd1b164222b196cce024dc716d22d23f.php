@@ -1,4 +1,4 @@
-<?php /*a:2:{s:65:"E:\wamp\www\adminTemplate\application\admin\view\admin\index.html";i:1528181370;s:60:"E:\wamp\www\adminTemplate\application\admin\view\layout.html";i:1528181306;}*/ ?>
+<?php /*a:2:{s:65:"E:\wamp\www\adminTemplate\application\admin\view\admin\index.html";i:1528527394;s:60:"E:\wamp\www\adminTemplate\application\admin\view\layout.html";i:1528527394;}*/ ?>
 <!DOCTYPE html>
 <html>
 
