@@ -1,0 +1,117 @@
+{extend name="base" /}
+{block name="content"}
+<div class="page-content">
+    <!-- Page Breadcrumb -->
+    <div class="page-breadcrumbs">
+        <ul class="breadcrumb">
+            <li>
+                <i class="fa fa-home"></i>
+                <a href="{:url('index/index')}">控制中心</a>
+            </li>
+            <li class="active">
+                <i class="fa fa-columns"></i>
+                配置列表
+            </li>
+        </ul>
+    </div>
+    <!-- /Page Breadcrumb -->
+    <!-- Page Header -->
+    <div class="page-header position-relative">
+        <div class="header-title">
+            <h1>
+                工具->
+            </h1>
+        </div>
+        <!--Header Buttons-->
+        <div class="header-buttons">
+            <a class="sidebar-toggler" href="#">
+                <i class="fa fa-arrows-h"></i>
+            </a>
+            <a class="refresh" id="refresh-toggler" href="">
+                <i class="glyphicon glyphicon-refresh"></i>
+            </a>
+            <a class="fullscreen" id="fullscreen-toggler" href="#">
+                <i class="glyphicon glyphicon-fullscreen"></i>
+            </a>
+        </div>
+        <!--Header Buttons End-->
+    </div>
+    <!-- /Page Header -->
+    <!-- Page Body -->
+    <div class="page-body">
+
+        <button type="button" tooltip="添加栏目" class="btn btn-sm btn-azure btn-addon"
+                onClick="javascript:window.location.href = '{:url('create')}'">
+            <i class="fa fa-plus"></i> Add
+        </button>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="widget">
+                    <div class="widget-body">
+                        <div class="flip-scroll">
+                            <form action="{:url('sort')}" method="post">
+                            <table class="table table-bordered table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">ID</th>
+                                    <th class="text-center">中文名称</th>
+                                    <th class="text-center">英文名称</th>
+                                    <th class="text-center">配置类型</th>
+                                    <th class="text-center">排序</th>
+                                    <th class="text-center">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {volist name="data" id="list"}
+                                <tr>
+                                    <td align="center">{$list.id}</td>
+                                    <td align="center">{$list.cnname}</td>
+                                    <td align="center">{$list.enname}</td>
+                                    <td align="center">
+                                        {if $list.type==1}
+                                            单行文本
+                                        {elseif $list.type==2/}
+                                            单选按钮
+                                        {elseif $list.type==3/}
+                                            下拉菜单
+                                        {/if}
+                                    </td>
+                                    <td align="center">
+                                        <input type="number" min="0" max="255" value="{$list.sort}" style="text-align:center;" name="{$list.id}">
+                                    </td>
+                                    <td align="center">
+                                        <a href="{:url('edit', ['id'=>$list.id])}"
+                                           class="btn btn-primary btn-sm shiny">
+                                            <i class="fa fa-edit"></i> 编辑
+                                        </a>
+                                        <a href="{:url('delete', ['id'=>$list.id])}" onClick="return confirm('确认删除?');"
+                                           class="btn btn-danger btn-sm shiny">
+                                            <i class="fa fa-trash-o"></i> 删除
+                                        </a>
+                                    </td>
+                                </tr>
+                                {/volist}
+                                <tr>
+                                    <td style="border:none;"></td>
+                                    <td style="border:none;"></td>
+                                    <td style="border:none;"></td>
+                                    <td style="border:none;"></td>
+                                    <td align="center">
+                                        <button type="submit" class="btn btn-primary btn-sm shiny" value="排序">排序</button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            </form>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Page Body -->
+</div>
+{/block}

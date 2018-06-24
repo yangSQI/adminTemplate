@@ -1,0 +1,103 @@
+{extend name="base" /}
+{block name="content"}
+<div class="page-content">
+    <!-- Page Breadcrumb -->
+    <div class="page-breadcrumbs">
+        <ul class="breadcrumb">
+            <li>
+                <i class="fa fa-home"></i>
+                <a href="{:url('index/index')}">控制中心</a>
+            </li>
+            <li class="active">
+                <i class="fa fa-columns"></i>
+                <a href="{:url('index')}">配置列表</a>
+            </li>
+            <li class="active">
+                <i class="fa fa-edit"></i>
+                添加配置
+            </li>
+        </ul>
+    </div>
+    <!-- /Page Breadcrumb -->
+    <!-- Page Header -->
+    <div class="page-header position-relative">
+        <div class="header-title">
+            <h1>
+                工具->
+            </h1>
+        </div>
+        <!--Header Buttons-->
+        <div class="header-buttons">
+            <a class="sidebar-toggler" href="#">
+                <i class="fa fa-arrows-h"></i>
+            </a>
+            <a class="refresh" id="refresh-toggler" href="">
+                <i class="glyphicon glyphicon-refresh"></i>
+            </a>
+            <a class="fullscreen" id="fullscreen-toggler" href="#">
+                <i class="glyphicon glyphicon-fullscreen"></i>
+            </a>
+        </div>
+        <!--Header Buttons End-->
+    </div>
+    <!-- /Page Header -->
+    <!-- Page Body -->
+    <div class="page-body">
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="widget">
+                    <div class="widget-header bordered-bottom bordered-blue">
+                        <span class="widget-caption">添加配置</span>
+                    </div>
+                    <div class="widget-body">
+                        <div id="horizontal-form">
+                            <form class="form-horizontal" role="form" action="{:url('save')}" method="post">
+                                <div class="form-group">
+                                    <label for="cnname" class="col-sm-2 control-label no-padding-right">中文名称</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" id="cnname" placeholder="" name="cnname" required="" type="text">
+                                    </div>
+                                    <p class="help-block col-sm-4 red">* 必填</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="enname" class="col-sm-2 control-label no-padding-right">英文名称</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" id="enname" placeholder="" name="enname" required="" type="text">
+                                    </div>
+                                    <p class="help-block col-sm-4 red">* 必填</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="type" class="col-sm-2 control-label no-padding-right">配置类型</label>
+                                    <div class="col-sm-6">
+                                        <select name="type">
+                                            <option value="">请选择</option>
+                                            <option value="1">单行文本</option>
+                                            <option value="2">单选按钮</option>
+                                            <option value="3">下拉菜单</option>
+                                        </select>
+                                    </div>
+                                    <p class="help-block col-sm-4 red">* 必填</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="value_s" class="col-sm-2 control-label no-padding-right">可选值</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" id="value_s" placeholder="" name="value_s" type="text">
+                                    </div>
+                                    <p class="help-block col-sm-4 red">当配置类型为单选按钮和下拉菜单时请按照格式: name值/显示值 表示，例如: username/用户名,当有多个选项的时候使用逗号(,)隔开</p>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">保存信息</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Page Body -->
+</div>
+{/block}

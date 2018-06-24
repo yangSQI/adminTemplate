@@ -1,3 +1,4 @@
+<?php /*a:2:{s:65:"E:\wamp\www\adminTemplate\application\admin\view\index\index.html";i:1529050113;s:58:"E:\wamp\www\adminTemplate\application\admin\view\base.html";i:1529739355;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -10,16 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--Basic Styles-->
-    <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
-    <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
-    <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+    <link href="/public/static/admin/style/bootstrap.css" rel="stylesheet">
+    <link href="/public/static/admin/style/font-awesome.css" rel="stylesheet">
+    <link href="/public/static/admin/style/weather-icons.css" rel="stylesheet">
 
     <!--Beyond styles-->
-    <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
-    <link href="__ADMIN__/style/demo.css" rel="stylesheet">
-    <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
-    <link href="__ADMIN__/style/animate.css" rel="stylesheet">
-    {block name="head"}{/block}
+    <link id="beyond-link" href="/public/static/admin/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="/public/static/admin/style/demo.css" rel="stylesheet">
+    <link href="/public/static/admin/style/typicons.css" rel="stylesheet">
+    <link href="/public/static/admin/style/animate.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             <div class="navbar-header pull-left">
                 <a href="#" class="navbar-brand">
                     <small>
-                        <img src="__ADMIN__/images/logo.png">
+                        <img src="/public/static/admin/images/logo.png">
                     </small>
                 </a>
             </div>
@@ -48,7 +49,7 @@
                         <li>
                             <a class="login-area dropdown-toggle" data-toggle="dropdown">
                                 <div class="avatar" title="View your public profile">
-                                    <img src="{:db('admin')->where('id',session('admin_id'))->field('img')->find()['img']}">
+                                    <img src="<?php echo db('admin')->where('id',session('admin_id'))->field('img')->find()['img']; ?>">
                                 </div>
                                 <section>
                                     <h2>
@@ -64,12 +65,12 @@
                                     <a>David Stevenson</a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="{:url('Logout/logout')}">
+                                    <a href="<?php echo url('Logout/logout'); ?>">
                                         退出登录
                                     </a>
                                 </li>
                                 <li class="dropdown-footer">
-                                    <a href="{:url('Admin/edit',['id'=>session('admin_id')])}">
+                                    <a href="<?php echo url('Admin/edit',['id'=>session('admin_id')]); ?>">
                                         修改密码
                                     </a>
                                 </li>
@@ -112,14 +113,14 @@
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="{:url('Admin/index')}">
+                            <a href="<?php echo url('Admin/index'); ?>">
                                     <span class="menu-text">
                                         管理员列表 </span>
                                 <i class="menu-expand"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="{:url('Admin/create')}">
+                            <a href="<?php echo url('Admin/create'); ?>">
                                     <span class="menu-text">
                                         管理员添加 </span>
                                 <i class="menu-expand"></i>
@@ -135,14 +136,14 @@
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="{:url('CateGory/index')}">
+                            <a href="<?php echo url('CateGory/index'); ?>">
                                     <span class="menu-text">
                                         栏目列表 </span>
                                 <i class="menu-expand"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="{:url('CateGory/create')}">
+                            <a href="<?php echo url('CateGory/create'); ?>">
                                     <span class="menu-text">
                                         栏目添加 </span>
                                 <i class="menu-expand"></i>
@@ -158,14 +159,14 @@
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="{:url('Article/index')}">
+                            <a href="<?php echo url('Article/index'); ?>">
                                     <span class="menu-text">
                                         文章列表 </span>
                                 <i class="menu-expand"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="{:url('Article/create')}">
+                            <a href="<?php echo url('Article/create'); ?>">
                                     <span class="menu-text">
                                         文章添加 </span>
                                 <i class="menu-expand"></i>
@@ -182,14 +183,14 @@
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="{:url('Conf/index')}">
+                            <a href="<?php echo url('Conf/index'); ?>">
                                     <span class="menu-text">
                                         配置列表 </span>
                                 <i class="menu-expand"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="{:url('Conf/conf')}">
+                            <a href="<?php echo url('Conf/conf'); ?>">
                                     <span class="menu-text">
                                         配置项 </span>
                                 <i class="menu-expand"></i>
@@ -204,18 +205,58 @@
         </div>
         <!-- /Page Sidebar -->
         <!-- Page Content -->
-        {block name="content"}{/block}
+        
+<div class="page-content">
+    <!-- Page Breadcrumb -->
+    <div class="page-breadcrumbs">
+        <ul class="breadcrumb">
+            <li>
+                <i class="fa fa-home"></i>
+                控制中心
+            </li>
+        </ul>
+    </div>
+    <!-- /Page Breadcrumb -->
+    <!-- Page Header -->
+    <div class="page-header position-relative">
+        <div class="header-title">
+            <h1>
+                工具->
+            </h1>
+        </div>
+        <!--Header Buttons-->
+        <div class="header-buttons">
+            <a class="sidebar-toggler" href="#">
+                <i class="fa fa-arrows-h"></i>
+            </a>
+            <a class="refresh" id="refresh-toggler" href="">
+                <i class="glyphicon glyphicon-refresh"></i>
+            </a>
+            <a class="fullscreen" id="fullscreen-toggler" href="#">
+                <i class="glyphicon glyphicon-fullscreen"></i>
+            </a>
+        </div>
+        <!--Header Buttons End-->
+    </div>
+    <!-- /Page Header -->
+    <!-- Page Body -->
+    <div class="page-body">
+        <h1>后台管理</h1>
+    </div>
+    <!-- /Page Body -->
+</div>
+
     </div>
     <!-- /Page Content -->
 </div>
 </div>
 
 <!--Basic Scripts-->
-<script src="__ADMIN__/style/jquery_002.js"></script>
-<script src="__ADMIN__/style/bootstrap.js"></script>
-<script src="__ADMIN__/style/jquery.js"></script>
+<script src="/public/static/admin/style/jquery_002.js"></script>
+<script src="/public/static/admin/style/bootstrap.js"></script>
+<script src="/public/static/admin/style/jquery.js"></script>
 <!--Beyond Scripts-->
-<script src="__ADMIN__/style/beyond.js"></script>
+<script src="/public/static/admin/style/beyond.js"></script>
 
 
 </body>
