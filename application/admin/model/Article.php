@@ -9,7 +9,10 @@ class Article extends Model
     public static function unlinkImg($fileId)
     {
         $data = self::where('id', $fileId)->field('img,imgDir')->find();
-        unlink($_SERVER['DOCUMENT_ROOT'] . $data['imgDir'] . '/' . $data['img']);
+        $file = $_SERVER['DOCUMENT_ROOT'] . $data['imgDir'] . '/' . $data['img'];
+        if (is_file($file)) {
+            unlink($file);
+        }
     }
 
 }

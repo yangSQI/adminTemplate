@@ -48,22 +48,34 @@
             <div class="col-lg-12 col-sm-12 col-xs-12">
                 <div class="widget">
                     <div class="widget-header bordered-bottom bordered-blue">
-                        <span class="widget-caption">新增栏目</span>
+                        <span class="widget-caption">修改管理员</span>
                     </div>
                     <div class="widget-body">
                         <div id="horizontal-form">
-                            <form class="form-horizontal" role="form" action="{:url('update', ['id'=>$Request.param.id])}" enctype="multipart/form-data" method="post">
+                            <form class="form-horizontal" role="form" action="{:url('update',['id'=>$Request.param.id])}" method="post" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label for="username" class="col-sm-2 control-label no-padding-right">管理员名称</label>
                                     <div class="col-sm-6">
-                                        <input class="form-control" id="username" placeholder="" name="username" required="" type="text" value="{$data['username']}">
+                                        <input class="form-control" id="username" placeholder="" name="username" required="" type="text" value="{$data.username}">
                                     </div>
                                     <p class="help-block col-sm-4 red">* 必填</p>
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="col-sm-2 control-label no-padding-right">管理员密码</label>
                                     <div class="col-sm-6">
-                                        <input class="form-control" id="password" name="password" required="" type="password" value="[[[[[[">
+                                        <input class="form-control" id="password" name="password" required="" type="password" value="********">
+                                    </div>
+                                    <p class="help-block col-sm-4 red">* 必填</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-sm-2 control-label no-padding-right">所属用户组</label>
+                                    <div class="col-sm-6">
+                                        <select name="group_id" value="">
+                                            <option value="">请选择</option>
+                                            {volist name="groupData" id="list"}
+                                            <option value="{$list.id}" {if $data.group_id==$list.id}selected="selected"{/if}>{$list.title}</option>
+                                            {/volist}
+                                        </select>
                                     </div>
                                     <p class="help-block col-sm-4 red">* 必填</p>
                                 </div>

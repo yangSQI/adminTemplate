@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2018-06-30T13:18:13+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/
+[运行时间：2.796160s] [吞吐率：0.36req/s] [内存消耗：2,572.73kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-06-30T13:27:21+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/
+[运行时间：0.068004s] [吞吐率：14.71req/s] [内存消耗：2,572.92kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-06-30T13:27:27+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/admin.php/index
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：2,573.20kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php

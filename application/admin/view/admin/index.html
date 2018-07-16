@@ -53,6 +53,7 @@
                                 <tr>
                                     <th class="text-center">ID</th>
                                     <th class="text-center">管理员名称</th>
+                                    <th class="text-center">所属用户组</th>
                                     <th class="text-center">管理员头像</th>
                                     <th class="text-center">操作</th>
                                 </tr>
@@ -62,6 +63,13 @@
                                 <tr>
                                     <td align="center">{$list.id}</td>
                                     <td align="center">{$list.username}</td>
+                                    <td align="center">
+                                        {if empty($list.title)}
+                                            无
+                                        {else}
+                                            {$list.title}
+                                        {/if}
+                                    </td>
                                     <td align="center">
                                         <img src="{$list.img}" width="80px" height="80px">
                                     </td>

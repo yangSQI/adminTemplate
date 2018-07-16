@@ -1,0 +1,106 @@
+{extend name="base" /}
+{block name="content"}
+<div class="page-content">
+    <!-- Page Breadcrumb -->
+    <div class="page-breadcrumbs">
+        <ul class="breadcrumb">
+            <li>
+                <i class="fa fa-home"></i>
+                <a href="{:url('index/index')}">控制中心</a>
+            </li>
+            <li class="active">
+                <i class="fa fa-columns"></i>
+                用户组列表
+            </li>
+        </ul>
+    </div>
+    <!-- /Page Breadcrumb -->
+    <!-- Page Header -->
+    <div class="page-header position-relative">
+        <div class="header-title">
+            <h1>
+                工具->
+            </h1>
+        </div>
+        <!--Header Buttons-->
+        <div class="header-buttons">
+            <a class="sidebar-toggler" href="#">
+                <i class="fa fa-arrows-h"></i>
+            </a>
+            <a class="refresh" id="refresh-toggler" href="">
+                <i class="glyphicon glyphicon-refresh"></i>
+            </a>
+            <a class="fullscreen" id="fullscreen-toggler" href="#">
+                <i class="glyphicon glyphicon-fullscreen"></i>
+            </a>
+        </div>
+        <!--Header Buttons End-->
+    </div>
+    <!-- /Page Header -->
+    <!-- Page Body -->
+    <div class="page-body">
+
+        <button type="button" tooltip="添加权限" class="btn btn-sm btn-azure btn-addon"
+                onClick="javascript:window.location.href = '{:url('create')}'">
+            <i class="fa fa-plus"></i> Add
+        </button>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="widget">
+                    <div class="widget-body">
+                        <div class="flip-scroll">
+                            <table class="table table-bordered table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">ID</th>
+                                    <th class="text-center">用户组</th>
+                                    <th class="text-center">状态</th>
+                                    <th class="text-center">权限</th>
+                                    <th class="text-center">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    {volist name="data" id="list"}
+                                    <tr>
+                                        <td align="center">{$list.id}</td>
+                                        <td align="center">{$list.title}</td>
+                                        <td align="center">
+                                            {if $list.status==1}
+                                                <button class="btn btn-success shiny">开启</button>
+                                            {else}
+                                                <button class="btn btn-danger shiny">关闭</button>
+                                            {/if}
+                                        </td>
+                                        <td align="center">
+                                            {if empty($list.rules)}
+                                            无
+                                            {else}
+                                            {$list.rules}
+                                            {/if}
+                                        </td>
+                                        <td align="center">
+                                            <a href="{:url('edit',['id'=>$list.id])}"
+                                               class="btn btn-primary btn-sm shiny">
+                                                <i class="fa fa-edit"></i> 编辑
+                                            </a>
+                                            <a href="{:url('delete',['id'=>$list.id])}" onClick="return confirm('确认删除?');"
+                                               class="btn btn-danger btn-sm shiny">
+                                                <i class="fa fa-trash-o"></i> 删除
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {/volist}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Page Body -->
+</div>
+{/block}

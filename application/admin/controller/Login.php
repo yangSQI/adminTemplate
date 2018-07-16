@@ -3,7 +3,6 @@ namespace app\admin\controller;
 use think\Controller;
 use app\admin\model\Admin as AdminModel;
 use think\facade\Session;
-use app\admin\controller\Common;
 class Login extends Controller
 {
     public function index()

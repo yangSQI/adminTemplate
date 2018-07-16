@@ -1,12 +1,12 @@
 <?php
 
 namespace app\admin\controller;
-
+use app\admin\controller\Common;
 use think\Controller;
 use think\Request;
 use app\admin\validate\Conf as ConfValidate;
 
-class Conf extends Controller
+class Conf extends Common
 {
     /**
      * 显示资源列表

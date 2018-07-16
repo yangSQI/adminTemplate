@@ -1,7 +1,7 @@
 <?php
 namespace app\admin\controller;
-use app\admin\controller\Common;
-class Logout extends Common
+use think\Controller;
+class Logout extends Controller
 {
     public function logout()
     {

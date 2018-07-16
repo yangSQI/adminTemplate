@@ -53,7 +53,7 @@
                                 <section>
                                     <h2>
                                             <span class="profile">
-                                                <span>admin</span>
+                                                <span>{:session('admin_username')}</span>
                                             </span>
                                     </h2>
                                 </section>
@@ -119,9 +119,16 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{:url('Admin/create')}">
+                            <a href="{:url('AuthRule/index')}">
                                     <span class="menu-text">
-                                        管理员添加 </span>
+                                        权限列表 </span>
+                                <i class="menu-expand"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{:url('AuthGroup/index')}">
+                                    <span class="menu-text">
+                                        用户组列表 </span>
                                 <i class="menu-expand"></i>
                             </a>
                         </li>

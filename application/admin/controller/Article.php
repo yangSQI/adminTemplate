@@ -55,7 +55,7 @@ class Article extends Common
             $data['aid'] = session('admin_id');
             $file = $request->file('thumb');
             $imgDir = '/public/static/upload/images';
-            $info = $file->validate(['size' => 1000000, 'ext' => 'jpg,png,gif,jpeg'])->move($_SERVER['DOCUMENT_ROOT'] . $imgDir);
+            $info = $file->validate(['size' => 100000, 'ext' => 'jpg,png,gif,jpeg'])->move($_SERVER['DOCUMENT_ROOT'] . $imgDir);
             if ($info) {
                 $data['imgDir'] = $imgDir . '/' . substr($info->getSaveName(), 0, strpos(str_replace('\\', DIRECTORY_SEPARATOR, $info->getSaveName()), DIRECTORY_SEPARATOR));
                 $data['img'] = $info->getFilename();

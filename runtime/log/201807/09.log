@@ -1,0 +1,1131 @@
+---------------------------------------------------------------
+[ 2018-07-09T22:07:03+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.074004s] [吞吐率：13.51req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:07:42+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.049003s] [吞吐率：20.41req/s] [内存消耗：4,038.91kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:07:42+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.060003s] [吞吐率：16.67req/s] [内存消耗：4,038.91kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:07:59+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：4,138.78kb] [文件加载：88]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:16]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:02+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.063004s] [吞吐率：15.87req/s] [内存消耗：4,138.78kb] [文件加载：88]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:16]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:02+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.066004s] [吞吐率：15.15req/s] [内存消耗：4,138.78kb] [文件加载：88]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001001s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:16]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:32+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.063003s] [吞吐率：15.87req/s] [内存消耗：4,138.78kb] [文件加载：88]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:17]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:39+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.068004s] [吞吐率：14.71req/s] [内存消耗：4,138.75kb] [文件加载：88]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:17]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:39+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.049002s] [吞吐率：20.41req/s] [内存消耗：4,138.75kb] [文件加载：88]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:17]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:41+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:41+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:45+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:45+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.075005s] [吞吐率：13.33req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:52+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.065004s] [吞吐率：15.38req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:08:53+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：4,038.81kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:04+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:05+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.079005s] [吞吐率：12.66req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:05+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.072004s] [吞吐率：13.89req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:05+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.063004s] [吞吐率：15.87req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:06+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:06+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:06+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.057003s] [吞吐率：17.54req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:10+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.069004s] [吞吐率：14.49req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:10+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.066004s] [吞吐率：15.15req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:10+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.069004s] [吞吐率：14.49req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:18+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.066003s] [吞吐率：15.15req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:19+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.095006s] [吞吐率：10.53req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:19+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：4,038.88kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:27+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.055003s] [吞吐率：18.18req/s] [内存消耗：4,039.13kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:27+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.081004s] [吞吐率：12.35req/s] [内存消耗：4,039.13kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:42+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.067004s] [吞吐率：14.92req/s] [内存消耗：4,137.22kb] [文件加载：87]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:16]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:48+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.063004s] [吞吐率：15.87req/s] [内存消耗：4,136.94kb] [文件加载：87]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001001s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:16]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:48+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.085005s] [吞吐率：11.76req/s] [内存消耗：4,136.94kb] [文件加载：87]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ error ] [8]Indirect modification of overloaded element of app\admin\model\AuthGroup has no effect[E:\wamp\www\adminTemplate\application\admin\model\AuthGroup.php:16]
+---------------------------------------------------------------
+[ 2018-07-09T22:09:50+08:00 ] 127.0.0.1 GET www.admintemplate.com/public/index.php/admin/auth_rule/delete/id/1.html
+[运行时间：0.059003s] [吞吐率：16.95req/s] [内存消耗：4,038.91kb] [文件加载：82]
+[ info ] [ LANG ] E:\wamp\www\adminTemplate\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.admintemplate.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.admintemplate.com/public/index.php/admin/auth_rule/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pgksclhc6ad7bn6v8d2pd753l6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpblog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `blog_auth_rule` WHERE  `pid` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_auth_group` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`rules` FROM `blog_auth_group` [ RunTime:0.000000s ]

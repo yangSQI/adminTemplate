@@ -1,4 +1,4 @@
-<?php /*a:1:{s:56:"E:\wamp\www\adminTemplate\thinkphp\tpl/dispatch_jump.tpl";i:1529304321;}*/ ?>
+<?php /*a:1:{s:56:"E:\wamp\www\adminTemplate\thinkphp\tpl/dispatch_jump.tpl";i:1531402550;}*/ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -8,7 +8,9 @@
     <style type="text/css">
         *{ padding: 0; margin: 0; }
         body{ background: #fff; font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif; color: #333; font-size: 16px; }
-        .system-message{ padding: 24px 48px; }
+        .system-message{
+            padding: 24px 48px;
+        }
         .system-message h1{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
         .system-message .jump{ padding-top: 10px; }
         .system-message .jump a{ color: #333; }
@@ -18,11 +20,11 @@
 </head>
 <body>
     <div class="system-message">
-        <?php switch ($code) {case 1:?>
-            <h1>:)</h1>
+        <?php switch ($code) { case 1:?>
+            <img src="/public/static/common/images/xiaolian.jpg" width="250px;">
             <p class="success"><?php echo(strip_tags($msg));?></p>
             <?php break;case 0:?>
-            <h1>:(</h1>
+            <img src="/public/static/common/images/kulian.jpg" width="250px;">
             <p class="error"><?php echo(strip_tags($msg));?></p>
             <?php break;} ?>
         <p class="detail"></p>
@@ -31,17 +33,17 @@
         </p>
     </div>
     <script type="text/javascript">
-        (function(){
-            var wait = document.getElementById('wait'),
-                href = document.getElementById('href').href;
-            var interval = setInterval(function(){
-                var time = --wait.innerHTML;
-                if(time <= 0) {
-                    location.href = href;
-                    clearInterval(interval);
-                };
-            }, 1000);
-        })();
+        // (function(){
+        //     var wait = document.getElementById('wait'),
+        //         href = document.getElementById('href').href;
+        //     var interval = setInterval(function(){
+        //         var time = --wait.innerHTML;
+        //         if(time <= 0) {
+        //             location.href = href;
+        //             clearInterval(interval);
+        //         };
+        //     }, 1000);
+        // })();
     </script>
 </body>
 </html>

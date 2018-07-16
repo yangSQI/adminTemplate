@@ -1,4 +1,4 @@
-<?php /*a:2:{s:63:"E:\wamp\www\adminTemplate\application\admin\view\conf\edit.html";i:1529763656;s:58:"E:\wamp\www\adminTemplate\application\admin\view\base.html";i:1529739355;}*/ ?>
+<?php /*a:2:{s:63:"E:\wamp\www\adminTemplate\application\admin\view\conf\edit.html";i:1529763656;s:58:"E:\wamp\www\adminTemplate\application\admin\view\base.html";i:1531055121;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -120,9 +120,16 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?php echo url('Admin/create'); ?>">
+                            <a href="<?php echo url('Rule/index'); ?>">
                                     <span class="menu-text">
-                                        管理员添加 </span>
+                                        权限列表 </span>
+                                <i class="menu-expand"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo url('Group/create'); ?>">
+                                    <span class="menu-text">
+                                        用户组列表 </span>
                                 <i class="menu-expand"></i>
                             </a>
                         </li>
